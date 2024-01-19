@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import { useState } from "react"; 
  
  
@@ -8,9 +9,9 @@ import { useState } from "react";
     
       return (
         <div className="flex items-center justify-between border-b border-gray-400 py-8 fixed z-50 w-full top-0 bg-white">
-          <a href="/">
+          <Link href="/dashboard">
             <img src="/logo2.svg" alt="logo" />
-          </a>
+          </Link>
           <nav>
             <section className="MOBILE-MENU flex lg:hidden">
               <div
@@ -45,7 +46,9 @@ import { useState } from "react";
                     <a href="/service">Our Services</a>
                   </li>
                   <li className="border-b border-gray-400 my-8 uppercase">
-                    <a href="/about">About us</a>
+                    <Link href="/dashboard/about">
+                      <p>About us</p>
+                    </Link>
                   </li>
                   <li className="border-b border-gray-400 my-8 uppercase">
                     <a href="/careers">Careers</a>
@@ -62,7 +65,9 @@ import { useState } from "react";
                 <a href="/service">Our Services</a>
               </li>
               <li>
-                <a href="/about">About us</a>
+              <Link href="/dashboard/about">
+                      <p>About us</p>
+                    </Link>
               </li>
               <li>
                 <a href="/careers">Careers</a>

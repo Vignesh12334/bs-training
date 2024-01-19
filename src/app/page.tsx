@@ -1,21 +1,13 @@
 
-import Main from './ui/Main'
-import Section from './ui/Section';
-import Navbar from './ui/Navbar';
-import Section2 from './ui/Section2';
-import Section3 from './ui/Section3';
-
 
 export default function Home() {
-    return <main>
-  
-       <Navbar />
-      <Main />
-      <Section />
-      <Section2 />
-      <Section3 />
-      
+    return (
+      <main className="flex min-h-screen flex-col p-6">
+      <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
+        <h1>This is Page</h1>
+      </div>
     </main>
+    )
 }
   
    
