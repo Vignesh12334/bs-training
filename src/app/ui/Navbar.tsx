@@ -8,7 +8,7 @@ import { useState } from "react";
       const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
     
       return (
-        <div className="flex items-center justify-between border-b border-gray-400 py-8 fixed z-50 w-full top-0 bg-white">
+        <div className="flex items-center justify-between border-b border-gray-400 py-8 px-20 fixed z-50 w-full top-0 bg-white">
           <Link href="/dashboard">
             <img src="/logo2.svg" alt="logo" />
           </Link>
