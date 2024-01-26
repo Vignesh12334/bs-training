@@ -1,7 +1,8 @@
 import ProfileContainer from "../components/ProfileContainer";
 
 const TeamSection = () => {
-    return <div className=" mt-10">
+    return <div className=" mt-10 md:flex md:flex-wrap md:py-20 ">
+   <div className="md:flex  md:gap-7 ">
          <ProfileContainer 
           img= '/Ellipse 1.png '
            heading="Hari"
@@ -23,24 +24,29 @@ const TeamSection = () => {
           subHeading="Project lead" 
           para='"The proper use of science is not to conquer nature, but to live in it."
           Her objective is to instill an awareness in the society that our interactions with the ..... see more'  />
+   </div>
 
-        {/* <ProfileContainer 
+   <div className="hidden md:flex md:gap-7  ">
+        <ProfileContainer 
+           img='/Ellipse 1 (3).png'
            heading="Arun Kumar NT(AK)" 
            subHeading="Sale Partner" 
            para="“I want to solve critical market challenges and build impactful business by providing turnkey solutions”
             After his Mechanical ..... see more  " />
 
        <ProfileContainer  
+         img='/Ellipse 1 (4).png'
           heading="Shanthi Priya Lobo" 
           subHeading="Project associate" 
           para="After graduating from college as an Environmental engineer, Shanthi worked in different industries looking for excitement, job satisfaction, and completeness to .......     see more"/>
 
        <ProfileContainer  
+         img='/Ellipse 1 (5).png'
           heading="Aamina Rukhiya" 
           subHeading="Project associate" 
           para="“I wish to be an entity that makes a difference in the space of climate change”
-          Aamina is an all time nature lover who went on to pursue .... see more"/> */}
-
+          Aamina is an all time nature lover who went on to pursue .... see more"/>
+      </div>
     </div>
 
     

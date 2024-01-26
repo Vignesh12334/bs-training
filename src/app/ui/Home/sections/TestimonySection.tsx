@@ -22,7 +22,7 @@ const TestimonySection = () => {
   };
 
   return (
-    <div className="flex flex-col justify-start items-center h-screen mt-8">
+    <div className="flex flex-col justify-start items-center  mt-8 md:py-16">
       <div className="max-w-lg bg-white rounded-lg p-8 relative">
         
         <p className="text-lg italic text-center">{quotes[activeQuote]}</p>
@@ -45,7 +45,7 @@ const TestimonySection = () => {
       <div className=" flex flex-col items-center">
       <a href="#" className="text-gray-600 mt-2 text-center">Read more</a>
 
-      <HeadingM className='py-10'>Find out how you can improve your sustainability journey with a free assessment</HeadingM>
+      <HeadingM className='py-10 md:inline-flex md:flex-col md:text-center md:gap-[32px]' >Find out how you can improve your sustainability journey with a free assessment</HeadingM>
       <LegendContainer button="Let's do it" />
      
          
