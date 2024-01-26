@@ -4,8 +4,8 @@ import TextL from "./Typography/TextL"
 
 const Footer = () => {
   return (
-    <div className="">
-        <div className=" n space-x-10 ml-20">
+    <div className="md:py-80">
+        <div className=" n space-x-10 ml-20 md:flex md:justify-evenly  ">
           <Link href="/dashboard" >
           <Image src='/logo2.svg' alt="logo-img" width={154} height={32} />
           </Link>
@@ -27,7 +27,7 @@ const Footer = () => {
           </Link>
         </div>
 
-             <div className="flex justify-between py-8">
+             <div className="flex justify-between px-2 py-8 md:hidden">
             
              <Image src='/icon 2.png' alt="facebook" width={32} height={32} />
              <Image src='/icon 1.png' alt="Instagram" width={32} height={32} />
@@ -37,12 +37,12 @@ const Footer = () => {
              
             </div>
 
-            <div className="text-center my-16 text-slate-500">
-                <ul >
+            <div className="text-center my-16 text-slate-500 ">
+                <ul className="md:flex md:justify-evenly" >
                   <li><TextL className="py-5">Privacy Policy</TextL> </li> 
                  <li><TextL  className="py-5">Terms of service</TextL> </li>
                  <li><TextL  className="py-5">Site Map</TextL> </li>
-                 <li><TextL  className="py-5 ">© 2020 Beyond Sustainability. 
+                 <li><TextL  className="py-5 ">© 2024 Beyond Sustainability. 
                        All right reserved.</TextL> </li>
                 
                 </ul>
