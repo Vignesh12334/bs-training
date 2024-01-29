@@ -12,7 +12,6 @@ export default function Home() {
         <CuriositySection/>
         <ProductSection />
         <TestimonySection/>
-        {/* <Footer/> */}
       </main>
     )
       

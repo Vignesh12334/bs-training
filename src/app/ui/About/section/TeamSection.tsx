@@ -1,15 +1,15 @@
 import ProfileContainer from "../components/ProfileContainer";
 
 const TeamSection = () => {
-    return <div className=" mt-10 md:flex md:flex-wrap md:py-20 ">
-   <div className="md:flex  md:gap-7 ">
+    return <div className=" mt-10 md:flex md:flex-wrap md:py-20 md:w-[1440px] md:h-[1320px] md:flex-shrink-0  ">
+   <div className="md:flex  md:gap-7  md:mt-32">
          <ProfileContainer 
           img= '/Ellipse 1.png '
            heading="Hari"
            subHeading="CEO"
            para="“I want to use my abilities and energy to help people take climate action”
            Hari discovered his ikigai was to 
-           become a social entre ....    see more" />
+           become a social entre ....    see more " />
 
       <ProfileContainer 
           img= '/Ellipse 1 (1).png'  

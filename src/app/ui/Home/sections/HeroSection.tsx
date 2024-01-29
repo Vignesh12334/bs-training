@@ -15,10 +15,10 @@ const HeroSection = () => {
 
 
         <div>
-          <div>
-            <HeadingM>Let us Transform your sustainability journey.</HeadingM> 
-            <TextL className='md:py-5'>Reduce your environmental impact by using a scientific data-driven approach.</TextL>
-            <LegendContainer button='Action' />
+          <div className='md:py-10'>
+            <HeadingM className='md:py-5'>Let us Transform your sustainability journey.</HeadingM> 
+            <TextL className=''>Reduce your environmental impact by using a scientific data-driven approach.</TextL>
+            <LegendContainer className='md:w-24 md:text-slate-200'   button='Action' />
           </div>
             <TextL className='text-center mt-8 md:mt-16 md:text-left md:ml-1'>Trusted by companies</TextL>
          <div className='flex justify-around mt-5 space-x-2  '>

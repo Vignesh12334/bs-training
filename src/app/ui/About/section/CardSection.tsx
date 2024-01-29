@@ -5,7 +5,7 @@ import CardContainer from "../components/CardContainer"
 
 
 const CardSection = () => {
-  return <div className=" md:flex md:flex-wrap  md:flex-row md:items-start md:gap-[20px] "  >
+  return <div className=" md:inline-flex  md:flex-wrap md:flex-row md:items-start md:gap-[35px] md:mt-10 "  >
        <div  className=" w-[289px] h-[140px] bg-green-600 rounded-md text-slate-200  "> 
         <CardContainer  heading="Reduce" para="Lessen the effects of manmade processes on the ecosystem" />
        </div>

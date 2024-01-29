@@ -13,7 +13,7 @@ export interface propTypes {
 
 const TextM= ({children, className} : propTypes) => {
   return (
-        <h1 className={twMerge(' text-[#1D1D1D] text-[14px] not-italic font-normal leading-[24px]',className)}>
+        <h1 className={twMerge(' text-[#1D1D1D] text-[14px] not-italic font-normal leading-[24px] md:items-center',className)}>
             {children}
         </h1>
   )
