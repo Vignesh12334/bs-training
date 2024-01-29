@@ -11,7 +11,7 @@ export interface propTypes {
 
 const ProfileContainer = ({img, heading, subHeading, para}: propTypes ) => {
     // console.log(img); => ""
-    return <div className=" border border-solid border-black mt-5 px-2">
+    return <div className=" border border-solid border-[#D8D8D8] mt-5 px-2 md:p-14">
         {img && 
          <Image src={img} alt=""  width={204} height={204} />
         }

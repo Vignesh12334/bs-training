@@ -5,9 +5,9 @@ import TextL from '../../Typography/TextL'
 
 const HeroSection = () => {
   return (
-    <div className='md:flex md:flex-col  md:items-center md:gap-[24px]'>
+    <div className='md:flex md:flex-col  md:items-center md:gap-[24px] md:w-[1440px] md:h-[500px] md:justify-center md:flex-shrink-0'>
        <HeadingL>Make all interactions between humans and the ecosystem regenerative in nature.</HeadingL>
-       <TextL className='mt-5 md:font-[20px]  md:not-italic  md:leading-[28px]'>Change ecosystems and ways of life - Assist communities affected by climate change in creating sustainable means of subsistence.</TextL>
+       <TextL className='mt-5 md:font-[20px]  md:not-italic  md:leading-[28px] '>Change ecosystems and ways of life - Assist communities affected by climate change in creating sustainable means of subsistence.</TextL>
     </div>
   )
 }

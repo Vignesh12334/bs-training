@@ -13,7 +13,7 @@ const ProductSection = () => {
                Develop de-carbonization projects
                Offset your carbon emissions through offset projects</TextL>
 
-              <LegendContainer  button="Book a demo" />
+              <LegendContainer className='md:w-40 md:text-slate-200'   button="Book a demo" />
           </div>
           <div className=" ">
                          <HeadingM className="py-5">ESG Strategy</HeadingM>
@@ -21,7 +21,7 @@ const ProductSection = () => {
                             Identify ESG risks and opportunities
                             ESG dashboards & reports
                             Generate a yearly ESG report</TextL>
-                         <LegendContainer  button="Book a demo" />
+                         <LegendContainer className='md:w-40 md:text-slate-200'  button="Book a demo" />
          </div>    
 
          </div>

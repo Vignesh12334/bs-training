@@ -15,7 +15,7 @@ export interface cardProps {
 
 const CardContainer = ({ heading, para, className} : cardProps) => {
   return (
-     <div className={twMerge('flex flex-col mt-5 gap-3 py-3 px-3 ', className)}>
+     <div className={twMerge('flex flex-col mt-5 gap-3  px-3 ', className)}>
         <h1 className=' text-[#FFF]  text-[24px] not-italic leading-[24px] font-bold '>
             {heading}
         </h1>

@@ -46,7 +46,7 @@ const TestimonySection = () => {
       <a href="#" className="text-gray-600 mt-2 text-center">Read more</a>
 
       <HeadingM className='py-10 md:inline-flex md:flex-col md:text-center md:gap-[32px]' >Find out how you can improve your sustainability journey with a free assessment</HeadingM>
-      <LegendContainer button="Let's do it" />
+      <LegendContainer className='md:text-slate-200' button="Let's do it" />
      
          
       </div>

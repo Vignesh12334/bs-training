@@ -72,7 +72,7 @@ import { useState } from "react";
               <li>
                 <a href="/careers">Careers</a>
               </li>
-              <li>
+              <li className=" bg-[#017846] text-slate-200 px-6 py-1">
                 <a href="/contact">Contact us</a>
               </li>
             </ul>
